@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  True North Tides
+
+  Created by Roddy Munro on 13/09/2020.
+  
+*/
+
+"Error" = "Error";
+"Today at" = "Today at";
+"Tomorrow at" = "Tomorrow at";
+"Alberta" = "Alberta";
+"British Columbia" = "British Columbia";
+"Manitoba" = "Manitoba";
+"New Brunswick" = "New Brunswick";
+"Newfoundland and Labrador" = "Newfoundland and Labrador";
+"Northwest Territories" = "Northwest Territories";
+"Nova Scotia" = "Nova Scotia";
+"Nunavut" = "Nunavut";
+"Ontario" = "Ontario";
+"Prince Edward Island" = "Prince Edward Island";
+"Quebec" = "Quebec";
+"Saskatchewan" = "Saskatchewan";
+"Yukon" = "Yukon";
+"You are not connected to the internet. Please check your internet connection and try again." = "You are not connected to the internet. Please check your internet connection and try again.";
+"Unable to complete your request. Please check your internet connection and try again." = "Unable to complete your request. Please check your internet connection and try again.";
+"Invalid response from the server. Please try again." = "Invalid response from the server. Please try again.";
+"The data received from the server was invalid. Please try again." = "The data received from the server was invalid. Please try again.";
+"Couldn't find any data for this station. Please contact the developer by going to 'Settings' and tapping 'Contact Us'." = "Couldn't find any data for this station. Please contact the developer by going to 'Settings' and tapping 'Contact Us'.";
+"Low Tide" = "Low Tide";
+"High Tide" = "High Tide";
+"Tidal Times" = "Tidal Times";
+"Close" = "Close";
+"Future Tides" = "Future Tides";
+"Loading" = "Loading";
+"Settings" = "Settings";
+"Province" = "Province";
+"Station" = "Station";
+"Why is my province not listed?" = "Why is my province not listed?";
+"Some provinces may not be shown due to the lack of a Canadian Hydrographic Service (CHS) station. Stations are typically located in an ocean, the sea or a significant lake. For more information, please visit the CHS website." = "Some provinces may not be shown due to the lack of a Canadian Hydrographic Service (CHS) station. Stations are typically located in an ocean, the sea or a significant lake. For more information, please visit the CHS website.";
+"Customize" = "Customize";
+"Colour Scheme" = "Colour Scheme";
+"Tip the Developer" = "Tip the Developer";
+"Units of Measurement" = "Units of Measurement";
+"Leave a Review" = "Leave a Review";
+"Meet the Maker" = "Meet the Maker";
+"Website" = "Website";
+"Twitter" = "Twitter";
+"With thanks to" = "With thanks to";
+"Version" = "Version";
+"Canadian Hydrographic Service" = "Canadian Hydrographic Service";
+"Thank you!" = "Thank you!";
+"Choose App Icon" = "Choose App Icon";
+"Choose Theme" = "Choose Theme";
+"Choose Station" = "Choose Station";
+"Select Station" = "Select Station";
+"Saved" = "Saved";
+"https://tides.gc.ca/eng" = "https://tides.gc.ca/eng";
+"day" = "day";
+"hour" = "hour";
+"minute" = "minute";
+"CHS Website" = "CHS Website";
+"Height" = "Height";
+"Meters (m)" = "Meters (m)";
+"Centimeters (cm)" = "Centimeters (cm)";
+"Feet (ft)" = "Feet (ft)";
+"Inches (in)" = "Inches (in)";
+"meters" = "meters";
+"centimeters" = "centimeters";
+"feet" = "feet";
+"inches" = "inches";
+"m" = "m";
+"cm" = "cm";
+"ft" = "ft";
+"in" = "in";
+"Search Stations" = "Search Stations";

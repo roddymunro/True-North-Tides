@@ -1,0 +1,1338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		793E5E2524D869ED004BBB33 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E5E2424D869ED004BBB33 /* Date+Ext.swift */; };
+		793FFEEF26275E330022441D /* TideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEEE26275E330022441D /* TideType.swift */; };
+		793FFEFB26275E770022441D /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEFA26275E770022441D /* Province.swift */; };
+		793FFF0226275EE50022441D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF0126275EE50022441D /* Station.swift */; };
+		793FFF1D2627608F0022441D /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEFA26275E770022441D /* Province.swift */; };
+		793FFF23262760920022441D /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEFA26275E770022441D /* Province.swift */; };
+		793FFF24262760930022441D /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEFA26275E770022441D /* Province.swift */; };
+		793FFF2A2627609C0022441D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF0126275EE50022441D /* Station.swift */; };
+		793FFF302627609C0022441D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF0126275EE50022441D /* Station.swift */; };
+		793FFF312627609D0022441D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF0126275EE50022441D /* Station.swift */; };
+		793FFF37262760A10022441D /* TideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEEE26275E330022441D /* TideType.swift */; };
+		793FFF38262760A10022441D /* TideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEEE26275E330022441D /* TideType.swift */; };
+		793FFF39262760A20022441D /* TideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFEEE26275E330022441D /* TideType.swift */; };
+		793FFF40262761830022441D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF3F262761830022441D /* ErrorModel.swift */; };
+		793FFF41262761830022441D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF3F262761830022441D /* ErrorModel.swift */; };
+		793FFF42262761830022441D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF3F262761830022441D /* ErrorModel.swift */; };
+		793FFF43262761830022441D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF3F262761830022441D /* ErrorModel.swift */; };
+		793FFF54262764740022441D /* UnitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF53262764730022441D /* UnitDetail.swift */; };
+		793FFF55262764740022441D /* UnitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF53262764730022441D /* UnitDetail.swift */; };
+		793FFF56262764740022441D /* UnitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF53262764730022441D /* UnitDetail.swift */; };
+		793FFF57262764740022441D /* UnitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FFF53262764730022441D /* UnitDetail.swift */; };
+		7943B7392503DF26003210E6 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943B7382503DF26003210E6 /* TideView.swift */; };
+		7943B73B25040778003210E6 /* SelectStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943B73A25040778003210E6 /* SelectStationView.swift */; };
+		7943B73E25043DCE003210E6 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943B73D25043DCE003210E6 /* IAPManager.swift */; };
+		7943B74025044ECD003210E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7943B73F25044ECD003210E6 /* LaunchScreen.storyboard */; };
+		7943B746250453C0003210E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7943B745250453C0003210E6 /* Assets.xcassets */; };
+		7943B74D250453C0003210E6 /* True North Tides watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7943B74C250453C0003210E6 /* True North Tides watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7943B752250453C0003210E6 /* True_North_TidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943B751250453C0003210E6 /* True_North_TidesApp.swift */; };
+		7943B754250453C0003210E6 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943B753250453C0003210E6 /* TideView.swift */; };
+		7943B75C250453C1003210E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7943B75B250453C1003210E6 /* Assets.xcassets */; };
+		7943B764250453C1003210E6 /* True North Tides watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7943B743250453BE003210E6 /* True North Tides watchOS.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7943B77025045555003210E6 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943B76F25045555003210E6 /* CircularProgressView.swift */; };
+		7943B775250457ED003210E6 /* TNTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AEE77E24D9AB0800F968B5 /* TNTError.swift */; };
+		7943B777250457ED003210E6 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332B24D83A5D009E31C1 /* XMLParser.swift */; };
+		7943B7782504580F003210E6 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E5E2424D869ED004BBB33 /* Date+Ext.swift */; };
+		7943B7792504580F003210E6 /* Units+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7456824D8C6810038B0DB /* Units+Ext.swift */; };
+		7943B77A2504580F003210E6 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332F24D84E54009E31C1 /* String+Ext.swift */; };
+		7943B77D250459AD003210E6 /* ResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332D24D84B0C009E31C1 /* ResponseObjects.swift */; };
+		7943B77E250459AD003210E6 /* WatchAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9330424D816C8009E31C1 /* WatchAppViewModel.swift */; };
+		795DA8A124EC856700461A07 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795DA8A024EC856700461A07 /* CircularProgressView.swift */; };
+		797A833E258159460081053F /* SelectStation.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 797A833D258159460081053F /* SelectStation.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
+		797A833F258159460081053F /* SelectStation.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 797A833D258159460081053F /* SelectStation.intentdefinition */; };
+		797A83872581618E0081053F /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797A83862581618E0081053F /* IntentHandler.swift */; };
+		797A838B2581618E0081053F /* StationIntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 797A83842581618E0081053F /* StationIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		797A83A9258162CC0081053F /* SelectStation.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 797A833D258159460081053F /* SelectStation.intentdefinition */; };
+		797A83C0258165CE0081053F /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332B24D83A5D009E31C1 /* XMLParser.swift */; };
+		797A83C6258165D00081053F /* TNTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AEE77E24D9AB0800F968B5 /* TNTError.swift */; };
+		797A83C7258165D20081053F /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E5E2424D869ED004BBB33 /* Date+Ext.swift */; };
+		797A83C8258165D40081053F /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332F24D84E54009E31C1 /* String+Ext.swift */; };
+		797A83C9258165D50081053F /* Units+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7456824D8C6810038B0DB /* Units+Ext.swift */; };
+		797A83D1258165DC0081053F /* ResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332D24D84B0C009E31C1 /* ResponseObjects.swift */; };
+		797A83D7258165E00081053F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79905B4F250E6F3C00C85FE4 /* Localizable.strings */; };
+		798457B42627A7FE00C264AA /* StationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457B32627A7FE00C264AA /* StationAPI.swift */; };
+		798457C12627AB8000C264AA /* StationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457B32627A7FE00C264AA /* StationAPI.swift */; };
+		798457C72627AB8000C264AA /* StationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457B32627A7FE00C264AA /* StationAPI.swift */; };
+		798457C82627AB8100C264AA /* StationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457B32627A7FE00C264AA /* StationAPI.swift */; };
+		798457D02627AC7A00C264AA /* StationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457CF2627AC7A00C264AA /* StationRepository.swift */; };
+		798457DB2627ACA400C264AA /* StationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457CF2627AC7A00C264AA /* StationRepository.swift */; };
+		798457E12627ACA400C264AA /* StationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457CF2627AC7A00C264AA /* StationRepository.swift */; };
+		798457E22627ACA500C264AA /* StationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457CF2627AC7A00C264AA /* StationRepository.swift */; };
+		798457E92627AD3000C264AA /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457E82627AD2F00C264AA /* Reading.swift */; };
+		798457EF2627AD5700C264AA /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457E82627AD2F00C264AA /* Reading.swift */; };
+		798457F52627AD5800C264AA /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457E82627AD2F00C264AA /* Reading.swift */; };
+		798457F62627AD5800C264AA /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798457E82627AD2F00C264AA /* Reading.swift */; };
+		798457FD2627AE9C00C264AA /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = 798457FC2627AE9C00C264AA /* stations.json */; };
+		798457FE2627AE9C00C264AA /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = 798457FC2627AE9C00C264AA /* stations.json */; };
+		798457FF2627AE9C00C264AA /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = 798457FC2627AE9C00C264AA /* stations.json */; };
+		798458002627AE9C00C264AA /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = 798457FC2627AE9C00C264AA /* stations.json */; };
+		7984582D2627CD5200C264AA /* SelectStationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7984582C2627CD5200C264AA /* SelectStationViewModel.swift */; };
+		7984582E2627CD5200C264AA /* SelectStationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7984582C2627CD5200C264AA /* SelectStationViewModel.swift */; };
+		798458502627D08D00C264AA /* AppViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7984584F2627D08D00C264AA /* AppViewBuilder.swift */; };
+		7984588E2627D18800C264AA /* AppViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7984584F2627D08D00C264AA /* AppViewBuilder.swift */; };
+		7984589F2627D3F200C264AA /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7984589E2627D3F200C264AA /* AppViewModel.swift */; };
+		79905B4D250E6F3C00C85FE4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79905B4F250E6F3C00C85FE4 /* Localizable.strings */; };
+		79905B52250E923200C85FE4 /* SelectStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79905B51250E923200C85FE4 /* SelectStationView.swift */; };
+		79905B58250EAEB600C85FE4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795DA8BD24EDB68100461A07 /* WidgetKit.framework */; };
+		79905B59250EAEB600C85FE4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795DA8BF24EDB68100461A07 /* SwiftUI.framework */; };
+		79905B5C250EAEB600C85FE4 /* True_North_Tides_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79905B5B250EAEB600C85FE4 /* True_North_Tides_Widget.swift */; };
+		79905B5E250EAEB800C85FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79905B5D250EAEB800C85FE4 /* Assets.xcassets */; };
+		79905B62250EAEB800C85FE4 /* True North Tides WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 79905B57250EAEB600C85FE4 /* True North Tides WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		79905B67250EAF5600C85FE4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79905B4F250E6F3C00C85FE4 /* Localizable.strings */; };
+		79905B68250EAF5600C85FE4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79905B4F250E6F3C00C85FE4 /* Localizable.strings */; };
+		79905B69250EAF5700C85FE4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79905B4F250E6F3C00C85FE4 /* Localizable.strings */; };
+		79905B6A250EAF5D00C85FE4 /* ResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332D24D84B0C009E31C1 /* ResponseObjects.swift */; };
+		79905B6F250EAF7100C85FE4 /* Units+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7456824D8C6810038B0DB /* Units+Ext.swift */; };
+		79905B70250EAF7400C85FE4 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332F24D84E54009E31C1 /* String+Ext.swift */; };
+		79905B71250EAF7600C85FE4 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E5E2424D869ED004BBB33 /* Date+Ext.swift */; };
+		79905B72250EAF7A00C85FE4 /* TNTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AEE77E24D9AB0800F968B5 /* TNTError.swift */; };
+		79905B74250EAF7F00C85FE4 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332B24D83A5D009E31C1 /* XMLParser.swift */; };
+		79905B78250EC07000C85FE4 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79905B77250EC06F00C85FE4 /* CircularProgressView.swift */; };
+		79A932F624D81604009E31C1 /* TrueNorthTidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A932F524D81604009E31C1 /* TrueNorthTidesApp.swift */; };
+		79A932F824D81604009E31C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A932F724D81604009E31C1 /* ContentView.swift */; };
+		79A932FA24D81605009E31C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A932F924D81605009E31C1 /* Assets.xcassets */; };
+		79A9332024D82619009E31C1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9331F24D82619009E31C1 /* SettingsView.swift */; };
+		79A9332A24D82816009E31C1 /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332924D82816009E31C1 /* BarButton.swift */; };
+		79A9332C24D83A5D009E31C1 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332B24D83A5D009E31C1 /* XMLParser.swift */; };
+		79A9332E24D84B0C009E31C1 /* ResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332D24D84B0C009E31C1 /* ResponseObjects.swift */; };
+		79A9333024D84E54009E31C1 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9332F24D84E54009E31C1 /* String+Ext.swift */; };
+		79AEE77F24D9AB0800F968B5 /* TNTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AEE77E24D9AB0800F968B5 /* TNTError.swift */; };
+		79AEE78124D9ACB500F968B5 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AEE78024D9ACB500F968B5 /* View+Ext.swift */; };
+		79D8309A26276CBF00107F97 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8309926276CBF00107F97 /* SearchBar.swift */; };
+		79D830A12627726300107F97 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D830A02627726300107F97 /* Color+Ext.swift */; };
+		79D830A22627726300107F97 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D830A02627726300107F97 /* Color+Ext.swift */; };
+		79D830A32627726300107F97 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D830A02627726300107F97 /* Color+Ext.swift */; };
+		79D830A42627726300107F97 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D830A02627726300107F97 /* Color+Ext.swift */; };
+		79D830AC2627759C00107F97 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D830AB2627759C00107F97 /* SettingsViewModel.swift */; };
+		79E7456924D8C6810038B0DB /* Units+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7456824D8C6810038B0DB /* Units+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7943B74E250453C0003210E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A932EA24D81604009E31C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7943B74B250453C0003210E6;
+			remoteInfo = "True North Tides watchOS Extension";
+		};
+		7943B762250453C1003210E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A932EA24D81604009E31C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7943B742250453BE003210E6;
+			remoteInfo = "True North Tides watchOS";
+		};
+		797A83892581618E0081053F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A932EA24D81604009E31C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797A83832581618E0081053F;
+			remoteInfo = StationIntentExtension;
+		};
+		79905B60250EAEB800C85FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A932EA24D81604009E31C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79905B56250EAEB600C85FE4;
+			remoteInfo = "True North Tides WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7943B768250453C1003210E6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7943B74D250453C0003210E6 /* True North Tides watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7943B76C250453C1003210E6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7943B764250453C1003210E6 /* True North Tides watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795DA8D024EDB68200461A07 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79905B62250EAEB800C85FE4 /* True North Tides WidgetExtension.appex in Embed App Extensions */,
+				797A838B2581618E0081053F /* StationIntentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		793E5E2424D869ED004BBB33 /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		793FFEEE26275E330022441D /* TideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideType.swift; sourceTree = "<group>"; };
+		793FFEFA26275E770022441D /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
+		793FFF0126275EE50022441D /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		793FFF3F262761830022441D /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		793FFF53262764730022441D /* UnitDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitDetail.swift; sourceTree = "<group>"; };
+		7943B7382503DF26003210E6 /* TideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
+		7943B73A25040778003210E6 /* SelectStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStationView.swift; sourceTree = "<group>"; };
+		7943B73C250439BB003210E6 /* True North Tides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "True North Tides.entitlements"; sourceTree = "<group>"; };
+		7943B73D25043DCE003210E6 /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		7943B73F25044ECD003210E6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7943B743250453BE003210E6 /* True North Tides watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "True North Tides watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7943B745250453C0003210E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7943B747250453C0003210E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7943B74C250453C0003210E6 /* True North Tides watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "True North Tides watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7943B751250453C0003210E6 /* True_North_TidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_North_TidesApp.swift; sourceTree = "<group>"; };
+		7943B753250453C0003210E6 /* TideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
+		7943B75B250453C1003210E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7943B760250453C1003210E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7943B76F25045555003210E6 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		7943B771250457A7003210E6 /* True North Tides watchOS Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "True North Tides watchOS Extension.entitlements"; sourceTree = "<group>"; };
+		7943B772250457B0003210E6 /* True North Tides watchOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "True North Tides watchOS.entitlements"; sourceTree = "<group>"; };
+		795DA8A024EC856700461A07 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		795DA8BD24EDB68100461A07 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		795DA8BF24EDB68100461A07 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		797A833D258159460081053F /* SelectStation.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SelectStation.intentdefinition; sourceTree = "<group>"; };
+		797A83842581618E0081053F /* StationIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StationIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		797A83862581618E0081053F /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		797A83882581618E0081053F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797A838C2581618E0081053F /* StationIntentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StationIntentExtension.entitlements; sourceTree = "<group>"; };
+		798457B32627A7FE00C264AA /* StationAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationAPI.swift; sourceTree = "<group>"; };
+		798457CF2627AC7A00C264AA /* StationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRepository.swift; sourceTree = "<group>"; };
+		798457E82627AD2F00C264AA /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
+		798457FC2627AE9C00C264AA /* stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
+		7984582C2627CD5200C264AA /* SelectStationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStationViewModel.swift; sourceTree = "<group>"; };
+		7984584F2627D08D00C264AA /* AppViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewBuilder.swift; sourceTree = "<group>"; };
+		7984589E2627D3F200C264AA /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		79905B4E250E6F3C00C85FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79905B50250E6F5A00C85FE4 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		79905B51250E923200C85FE4 /* SelectStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStationView.swift; sourceTree = "<group>"; };
+		79905B57250EAEB600C85FE4 /* True North Tides WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "True North Tides WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79905B5B250EAEB600C85FE4 /* True_North_Tides_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = True_North_Tides_Widget.swift; sourceTree = "<group>"; };
+		79905B5D250EAEB800C85FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79905B5F250EAEB800C85FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79905B63250EAEB800C85FE4 /* True North Tides WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "True North Tides WidgetExtension.entitlements"; sourceTree = "<group>"; };
+		79905B77250EC06F00C85FE4 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		79A932F224D81604009E31C1 /* True North Tides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "True North Tides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A932F524D81604009E31C1 /* TrueNorthTidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueNorthTidesApp.swift; sourceTree = "<group>"; };
+		79A932F724D81604009E31C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79A932F924D81605009E31C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A932FE24D81605009E31C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A9330424D816C8009E31C1 /* WatchAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppViewModel.swift; sourceTree = "<group>"; };
+		79A9331F24D82619009E31C1 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		79A9332924D82816009E31C1 /* BarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarButton.swift; sourceTree = "<group>"; };
+		79A9332B24D83A5D009E31C1 /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		79A9332D24D84B0C009E31C1 /* ResponseObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObjects.swift; sourceTree = "<group>"; };
+		79A9332F24D84E54009E31C1 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		79AEE77E24D9AB0800F968B5 /* TNTError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNTError.swift; sourceTree = "<group>"; };
+		79AEE78024D9ACB500F968B5 /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		79D8309926276CBF00107F97 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		79D830A02627726300107F97 /* Color+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		79D830AB2627759C00107F97 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		79E7456824D8C6810038B0DB /* Units+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Units+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7943B749250453C0003210E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A83812581618E0081053F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79905B54250EAEB600C85FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79905B59250EAEB600C85FE4 /* SwiftUI.framework in Frameworks */,
+				79905B58250EAEB600C85FE4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A932EF24D81604009E31C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		793E5E2824D874AC004BBB33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				793FFF3F262761830022441D /* ErrorModel.swift */,
+				79A9332D24D84B0C009E31C1 /* ResponseObjects.swift */,
+				793FFF0126275EE50022441D /* Station.swift */,
+				793FFF53262764730022441D /* UnitDetail.swift */,
+				798457E82627AD2F00C264AA /* Reading.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		793E5E2924D874B2004BBB33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79D830A02627726300107F97 /* Color+Ext.swift */,
+				79E7456824D8C6810038B0DB /* Units+Ext.swift */,
+				79A9332F24D84E54009E31C1 /* String+Ext.swift */,
+				793E5E2424D869ED004BBB33 /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		793E5E2A24D874CC004BBB33 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				79A9332924D82816009E31C1 /* BarButton.swift */,
+				795DA8A024EC856700461A07 /* CircularProgressView.swift */,
+				7943B7382503DF26003210E6 /* TideView.swift */,
+				79D8309926276CBF00107F97 /* SearchBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		793E5E2B24D874DC004BBB33 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				79A932F724D81604009E31C1 /* ContentView.swift */,
+				7943B73A25040778003210E6 /* SelectStationView.swift */,
+				79A9331F24D82619009E31C1 /* SettingsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		793E5E2C24D874F4004BBB33 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7943B73D25043DCE003210E6 /* IAPManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		793FFEED26275E1D0022441D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				793FFEEE26275E330022441D /* TideType.swift */,
+				793FFEFA26275E770022441D /* Province.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		793FFF0D26275F3F0022441D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				793E5E2B24D874DC004BBB33 /* Screens */,
+				793E5E2A24D874CC004BBB33 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7943B744250453BE003210E6 /* True North Tides watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				7943B772250457B0003210E6 /* True North Tides watchOS.entitlements */,
+				7943B745250453C0003210E6 /* Assets.xcassets */,
+				7943B747250453C0003210E6 /* Info.plist */,
+			);
+			path = "True North Tides watchOS";
+			sourceTree = "<group>";
+		};
+		7943B750250453C0003210E6 /* True North Tides watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7943B771250457A7003210E6 /* True North Tides watchOS Extension.entitlements */,
+				7943B751250453C0003210E6 /* True_North_TidesApp.swift */,
+				798458792627D13800C264AA /* Views */,
+				798458B72627D52D00C264AA /* ViewModels */,
+				7943B75B250453C1003210E6 /* Assets.xcassets */,
+				7943B760250453C1003210E6 /* Info.plist */,
+			);
+			path = "True North Tides watchOS Extension";
+			sourceTree = "<group>";
+		};
+		7943B773250457D0003210E6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7984581F2627BD4200C264AA /* APIs */,
+				798457CE2627AC6F00C264AA /* Repositories */,
+				79905B4A250E671400C85FE4 /* Localization */,
+				793FFEED26275E1D0022441D /* Enums */,
+				793E5E2824D874AC004BBB33 /* Models */,
+				793E5E2924D874B2004BBB33 /* Extensions */,
+				7943B774250457E0003210E6 /* Utilities */,
+				7984582A2627CD2D00C264AA /* ViewBuilders */,
+				7984582B2627CD4300C264AA /* ViewModels */,
+				798457FC2627AE9C00C264AA /* stations.json */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7943B774250457E0003210E6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				79AEE77E24D9AB0800F968B5 /* TNTError.swift */,
+				79A9332B24D83A5D009E31C1 /* XMLParser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		795DA8BC24EDB68100461A07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				795DA8BD24EDB68100461A07 /* WidgetKit.framework */,
+				795DA8BF24EDB68100461A07 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		797A83852581618E0081053F /* StationIntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				797A838C2581618E0081053F /* StationIntentExtension.entitlements */,
+				797A83862581618E0081053F /* IntentHandler.swift */,
+				797A83882581618E0081053F /* Info.plist */,
+			);
+			path = StationIntentExtension;
+			sourceTree = "<group>";
+		};
+		798457CE2627AC6F00C264AA /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				798457CF2627AC7A00C264AA /* StationRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		7984581F2627BD4200C264AA /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				798457B32627A7FE00C264AA /* StationAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		7984582A2627CD2D00C264AA /* ViewBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				7984584F2627D08D00C264AA /* AppViewBuilder.swift */,
+			);
+			path = ViewBuilders;
+			sourceTree = "<group>";
+		};
+		7984582B2627CD4300C264AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7984582C2627CD5200C264AA /* SelectStationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		798458792627D13800C264AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7943B753250453C0003210E6 /* TideView.swift */,
+				7943B76F25045555003210E6 /* CircularProgressView.swift */,
+				79905B51250E923200C85FE4 /* SelectStationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		798458B72627D52D00C264AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				79A9330424D816C8009E31C1 /* WatchAppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		79905B4A250E671400C85FE4 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				79905B4F250E6F3C00C85FE4 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		79905B5A250EAEB600C85FE4 /* True North Tides Widget */ = {
+			isa = PBXGroup;
+			children = (
+				79905B5B250EAEB600C85FE4 /* True_North_Tides_Widget.swift */,
+				79905B77250EC06F00C85FE4 /* CircularProgressView.swift */,
+				79905B5D250EAEB800C85FE4 /* Assets.xcassets */,
+				79905B5F250EAEB800C85FE4 /* Info.plist */,
+				797A833D258159460081053F /* SelectStation.intentdefinition */,
+			);
+			path = "True North Tides Widget";
+			sourceTree = "<group>";
+		};
+		79A932E924D81604009E31C1 = {
+			isa = PBXGroup;
+			children = (
+				79905B63250EAEB800C85FE4 /* True North Tides WidgetExtension.entitlements */,
+				7943B773250457D0003210E6 /* Shared */,
+				79A932F424D81604009E31C1 /* True North Tides iOS */,
+				7943B744250453BE003210E6 /* True North Tides watchOS */,
+				7943B750250453C0003210E6 /* True North Tides watchOS Extension */,
+				79905B5A250EAEB600C85FE4 /* True North Tides Widget */,
+				797A83852581618E0081053F /* StationIntentExtension */,
+				795DA8BC24EDB68100461A07 /* Frameworks */,
+				79A932F324D81604009E31C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A932F324D81604009E31C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A932F224D81604009E31C1 /* True North Tides.app */,
+				7943B743250453BE003210E6 /* True North Tides watchOS.app */,
+				7943B74C250453C0003210E6 /* True North Tides watchOS Extension.appex */,
+				79905B57250EAEB600C85FE4 /* True North Tides WidgetExtension.appex */,
+				797A83842581618E0081053F /* StationIntentExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A932F424D81604009E31C1 /* True North Tides iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7943B73F25044ECD003210E6 /* LaunchScreen.storyboard */,
+				7943B73C250439BB003210E6 /* True North Tides.entitlements */,
+				79A932F524D81604009E31C1 /* TrueNorthTidesApp.swift */,
+				79D8308E262766F900107F97 /* Extensions */,
+				793FFF0D26275F3F0022441D /* Views */,
+				79D830AA2627758D00107F97 /* ViewModels */,
+				793E5E2C24D874F4004BBB33 /* Utilities */,
+				79A932F924D81605009E31C1 /* Assets.xcassets */,
+				79A932FE24D81605009E31C1 /* Info.plist */,
+			);
+			path = "True North Tides iOS";
+			sourceTree = "<group>";
+		};
+		79D8308E262766F900107F97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79AEE78024D9ACB500F968B5 /* View+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79D830AA2627758D00107F97 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				79D830AB2627759C00107F97 /* SettingsViewModel.swift */,
+				7984589E2627D3F200C264AA /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7943B742250453BE003210E6 /* True North Tides watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7943B769250453C1003210E6 /* Build configuration list for PBXNativeTarget "True North Tides watchOS" */;
+			buildPhases = (
+				7943B741250453BE003210E6 /* Resources */,
+				7943B768250453C1003210E6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7943B74F250453C0003210E6 /* PBXTargetDependency */,
+			);
+			name = "True North Tides watchOS";
+			productName = "True North Tides watchOS";
+			productReference = 7943B743250453BE003210E6 /* True North Tides watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7943B74B250453C0003210E6 /* True North Tides watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7943B765250453C1003210E6 /* Build configuration list for PBXNativeTarget "True North Tides watchOS Extension" */;
+			buildPhases = (
+				7943B748250453C0003210E6 /* Sources */,
+				7943B749250453C0003210E6 /* Frameworks */,
+				7943B74A250453C0003210E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "True North Tides watchOS Extension";
+			packageProductDependencies = (
+			);
+			productName = "True North Tides watchOS Extension";
+			productReference = 7943B74C250453C0003210E6 /* True North Tides watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		797A83832581618E0081053F /* StationIntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797A838D2581618E0081053F /* Build configuration list for PBXNativeTarget "StationIntentExtension" */;
+			buildPhases = (
+				797A83802581618E0081053F /* Sources */,
+				797A83812581618E0081053F /* Frameworks */,
+				797A83822581618E0081053F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StationIntentExtension;
+			productName = StationIntentExtension;
+			productReference = 797A83842581618E0081053F /* StationIntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		79905B56250EAEB600C85FE4 /* True North Tides WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79905B64250EAEB800C85FE4 /* Build configuration list for PBXNativeTarget "True North Tides WidgetExtension" */;
+			buildPhases = (
+				79905B53250EAEB600C85FE4 /* Sources */,
+				79905B54250EAEB600C85FE4 /* Frameworks */,
+				79905B55250EAEB600C85FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "True North Tides WidgetExtension";
+			packageProductDependencies = (
+			);
+			productName = "True North Tides WidgetExtension";
+			productReference = 79905B57250EAEB600C85FE4 /* True North Tides WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		79A932F124D81604009E31C1 /* True North Tides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A9330124D81605009E31C1 /* Build configuration list for PBXNativeTarget "True North Tides" */;
+			buildPhases = (
+				79A932EE24D81604009E31C1 /* Sources */,
+				79A932EF24D81604009E31C1 /* Frameworks */,
+				79A932F024D81604009E31C1 /* Resources */,
+				795DA8D024EDB68200461A07 /* Embed App Extensions */,
+				7943B76C250453C1003210E6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7943B763250453C1003210E6 /* PBXTargetDependency */,
+				79905B61250EAEB800C85FE4 /* PBXTargetDependency */,
+				797A838A2581618E0081053F /* PBXTargetDependency */,
+			);
+			name = "True North Tides";
+			packageProductDependencies = (
+			);
+			productName = "Bay of Fundy Tidal Times";
+			productReference = 79A932F224D81604009E31C1 /* True North Tides.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A932EA24D81604009E31C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					7943B742250453BE003210E6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					7943B74B250453C0003210E6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					797A83832581618E0081053F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					79905B56250EAEB600C85FE4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					79A932F124D81604009E31C1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 79A932ED24D81604009E31C1 /* Build configuration list for PBXProject "True North Tides" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"fr-CA",
+			);
+			mainGroup = 79A932E924D81604009E31C1;
+			packageReferences = (
+			);
+			productRefGroup = 79A932F324D81604009E31C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A932F124D81604009E31C1 /* True North Tides */,
+				7943B742250453BE003210E6 /* True North Tides watchOS */,
+				7943B74B250453C0003210E6 /* True North Tides watchOS Extension */,
+				79905B56250EAEB600C85FE4 /* True North Tides WidgetExtension */,
+				797A83832581618E0081053F /* StationIntentExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7943B741250453BE003210E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7943B746250453C0003210E6 /* Assets.xcassets in Resources */,
+				79905B67250EAF5600C85FE4 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7943B74A250453C0003210E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79905B68250EAF5600C85FE4 /* Localizable.strings in Resources */,
+				7943B75C250453C1003210E6 /* Assets.xcassets in Resources */,
+				798457FE2627AE9C00C264AA /* stations.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A83822581618E0081053F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798458002627AE9C00C264AA /* stations.json in Resources */,
+				797A83D7258165E00081053F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79905B55250EAEB600C85FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79905B5E250EAEB800C85FE4 /* Assets.xcassets in Resources */,
+				79905B69250EAF5700C85FE4 /* Localizable.strings in Resources */,
+				798457FF2627AE9C00C264AA /* stations.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A932F024D81604009E31C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7943B74025044ECD003210E6 /* LaunchScreen.storyboard in Resources */,
+				79905B4D250E6F3C00C85FE4 /* Localizable.strings in Resources */,
+				798457FD2627AE9C00C264AA /* stations.json in Resources */,
+				79A932FA24D81605009E31C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7943B748250453C0003210E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798457C12627AB8000C264AA /* StationAPI.swift in Sources */,
+				79905B52250E923200C85FE4 /* SelectStationView.swift in Sources */,
+				7943B775250457ED003210E6 /* TNTError.swift in Sources */,
+				7943B777250457ED003210E6 /* XMLParser.swift in Sources */,
+				7943B77D250459AD003210E6 /* ResponseObjects.swift in Sources */,
+				7943B754250453C0003210E6 /* TideView.swift in Sources */,
+				7943B77E250459AD003210E6 /* WatchAppViewModel.swift in Sources */,
+				793FFF41262761830022441D /* ErrorModel.swift in Sources */,
+				798457EF2627AD5700C264AA /* Reading.swift in Sources */,
+				7943B752250453C0003210E6 /* True_North_TidesApp.swift in Sources */,
+				793FFF55262764740022441D /* UnitDetail.swift in Sources */,
+				7943B77A2504580F003210E6 /* String+Ext.swift in Sources */,
+				793FFF1D2627608F0022441D /* Province.swift in Sources */,
+				7984582E2627CD5200C264AA /* SelectStationViewModel.swift in Sources */,
+				793FFF37262760A10022441D /* TideType.swift in Sources */,
+				793FFF2A2627609C0022441D /* Station.swift in Sources */,
+				7984588E2627D18800C264AA /* AppViewBuilder.swift in Sources */,
+				7943B77025045555003210E6 /* CircularProgressView.swift in Sources */,
+				798457DB2627ACA400C264AA /* StationRepository.swift in Sources */,
+				7943B7792504580F003210E6 /* Units+Ext.swift in Sources */,
+				79D830A22627726300107F97 /* Color+Ext.swift in Sources */,
+				7943B7782504580F003210E6 /* Date+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A83802581618E0081053F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793FFF43262761830022441D /* ErrorModel.swift in Sources */,
+				797A83C9258165D50081053F /* Units+Ext.swift in Sources */,
+				798457F62627AD5800C264AA /* Reading.swift in Sources */,
+				797A83872581618E0081053F /* IntentHandler.swift in Sources */,
+				793FFF24262760930022441D /* Province.swift in Sources */,
+				797A83A9258162CC0081053F /* SelectStation.intentdefinition in Sources */,
+				79D830A42627726300107F97 /* Color+Ext.swift in Sources */,
+				793FFF39262760A20022441D /* TideType.swift in Sources */,
+				793FFF312627609D0022441D /* Station.swift in Sources */,
+				797A83C6258165D00081053F /* TNTError.swift in Sources */,
+				798457E22627ACA500C264AA /* StationRepository.swift in Sources */,
+				797A83C7258165D20081053F /* Date+Ext.swift in Sources */,
+				797A83D1258165DC0081053F /* ResponseObjects.swift in Sources */,
+				798457C82627AB8100C264AA /* StationAPI.swift in Sources */,
+				797A83C8258165D40081053F /* String+Ext.swift in Sources */,
+				793FFF57262764740022441D /* UnitDetail.swift in Sources */,
+				797A83C0258165CE0081053F /* XMLParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79905B53250EAEB600C85FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79905B5C250EAEB600C85FE4 /* True_North_Tides_Widget.swift in Sources */,
+				79905B74250EAF7F00C85FE4 /* XMLParser.swift in Sources */,
+				79905B70250EAF7400C85FE4 /* String+Ext.swift in Sources */,
+				79905B6A250EAF5D00C85FE4 /* ResponseObjects.swift in Sources */,
+				79D830A32627726300107F97 /* Color+Ext.swift in Sources */,
+				793FFF38262760A10022441D /* TideType.swift in Sources */,
+				79905B72250EAF7A00C85FE4 /* TNTError.swift in Sources */,
+				793FFF42262761830022441D /* ErrorModel.swift in Sources */,
+				79905B71250EAF7600C85FE4 /* Date+Ext.swift in Sources */,
+				798457C72627AB8000C264AA /* StationAPI.swift in Sources */,
+				793FFF56262764740022441D /* UnitDetail.swift in Sources */,
+				793FFF302627609C0022441D /* Station.swift in Sources */,
+				793FFF23262760920022441D /* Province.swift in Sources */,
+				79905B6F250EAF7100C85FE4 /* Units+Ext.swift in Sources */,
+				798457F52627AD5800C264AA /* Reading.swift in Sources */,
+				798457E12627ACA400C264AA /* StationRepository.swift in Sources */,
+				79905B78250EC07000C85FE4 /* CircularProgressView.swift in Sources */,
+				797A833F258159460081053F /* SelectStation.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A932EE24D81604009E31C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798458502627D08D00C264AA /* AppViewBuilder.swift in Sources */,
+				7984582D2627CD5200C264AA /* SelectStationViewModel.swift in Sources */,
+				7943B73E25043DCE003210E6 /* IAPManager.swift in Sources */,
+				7943B7392503DF26003210E6 /* TideView.swift in Sources */,
+				795DA8A124EC856700461A07 /* CircularProgressView.swift in Sources */,
+				79A9332024D82619009E31C1 /* SettingsView.swift in Sources */,
+				798457B42627A7FE00C264AA /* StationAPI.swift in Sources */,
+				798457D02627AC7A00C264AA /* StationRepository.swift in Sources */,
+				793FFF40262761830022441D /* ErrorModel.swift in Sources */,
+				79D8309A26276CBF00107F97 /* SearchBar.swift in Sources */,
+				793E5E2524D869ED004BBB33 /* Date+Ext.swift in Sources */,
+				7984589F2627D3F200C264AA /* AppViewModel.swift in Sources */,
+				79A9333024D84E54009E31C1 /* String+Ext.swift in Sources */,
+				79A9332E24D84B0C009E31C1 /* ResponseObjects.swift in Sources */,
+				79A9332A24D82816009E31C1 /* BarButton.swift in Sources */,
+				79E7456924D8C6810038B0DB /* Units+Ext.swift in Sources */,
+				7943B73B25040778003210E6 /* SelectStationView.swift in Sources */,
+				797A833E258159460081053F /* SelectStation.intentdefinition in Sources */,
+				79A9332C24D83A5D009E31C1 /* XMLParser.swift in Sources */,
+				79D830A12627726300107F97 /* Color+Ext.swift in Sources */,
+				79A932F824D81604009E31C1 /* ContentView.swift in Sources */,
+				793FFF0226275EE50022441D /* Station.swift in Sources */,
+				79AEE78124D9ACB500F968B5 /* View+Ext.swift in Sources */,
+				79A932F624D81604009E31C1 /* TrueNorthTidesApp.swift in Sources */,
+				79AEE77F24D9AB0800F968B5 /* TNTError.swift in Sources */,
+				798457E92627AD3000C264AA /* Reading.swift in Sources */,
+				79D830AC2627759C00107F97 /* SettingsViewModel.swift in Sources */,
+				793FFEEF26275E330022441D /* TideType.swift in Sources */,
+				793FFEFB26275E770022441D /* Province.swift in Sources */,
+				793FFF54262764740022441D /* UnitDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7943B74F250453C0003210E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7943B74B250453C0003210E6 /* True North Tides watchOS Extension */;
+			targetProxy = 7943B74E250453C0003210E6 /* PBXContainerItemProxy */;
+		};
+		7943B763250453C1003210E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 7943B742250453BE003210E6 /* True North Tides watchOS */;
+			targetProxy = 7943B762250453C1003210E6 /* PBXContainerItemProxy */;
+		};
+		797A838A2581618E0081053F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797A83832581618E0081053F /* StationIntentExtension */;
+			targetProxy = 797A83892581618E0081053F /* PBXContainerItemProxy */;
+		};
+		79905B61250EAEB800C85FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79905B56250EAEB600C85FE4 /* True North Tides WidgetExtension */;
+			targetProxy = 79905B60250EAEB800C85FE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79905B4F250E6F3C00C85FE4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79905B4E250E6F3C00C85FE4 /* en */,
+				79905B50250E6F5A00C85FE4 /* fr-CA */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7943B766250453C1003210E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "True North Tides watchOS Extension/True North Tides watchOS Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "True North Tides watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		7943B767250453C1003210E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "True North Tides watchOS Extension/True North Tides watchOS Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "True North Tides watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		7943B76A250453C1003210E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "True North Tides watchOS/True North Tides watchOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				IBSC_MODULE = True_North_Tides_watchOS_Extension;
+				INFOPLIST_FILE = "True North Tides watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		7943B76B250453C1003210E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "True North Tides watchOS/True North Tides watchOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				IBSC_MODULE = True_North_Tides_watchOS_Extension;
+				INFOPLIST_FILE = "True North Tides watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		797A838E2581618E0081053F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = StationIntentExtension/StationIntentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				INFOPLIST_FILE = StationIntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides.StationIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG INTENT";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		797A838F2581618E0081053F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = StationIntentExtension/StationIntentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				INFOPLIST_FILE = StationIntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides.StationIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = INTENT;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79905B65250EAEB800C85FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "True North Tides WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				INFOPLIST_FILE = "True North Tides Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roddy.io.TrueNorthTides.True-North-Tides-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG WIDGET";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79905B66250EAEB800C85FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "True North Tides WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				INFOPLIST_FILE = "True North Tides Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roddy.io.TrueNorthTides.True-North-Tides-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A932FF24D81605009E31C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79A9330024D81605009E31C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A9330224D81605009E31C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "True North Tides iOS/True North Tides.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/True North Tides iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A9330324D81605009E31C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "True North Tides iOS/True North Tides.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/True North Tides iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.TrueNorthTides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7943B765250453C1003210E6 /* Build configuration list for PBXNativeTarget "True North Tides watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7943B766250453C1003210E6 /* Debug */,
+				7943B767250453C1003210E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7943B769250453C1003210E6 /* Build configuration list for PBXNativeTarget "True North Tides watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7943B76A250453C1003210E6 /* Debug */,
+				7943B76B250453C1003210E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797A838D2581618E0081053F /* Build configuration list for PBXNativeTarget "StationIntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797A838E2581618E0081053F /* Debug */,
+				797A838F2581618E0081053F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79905B64250EAEB800C85FE4 /* Build configuration list for PBXNativeTarget "True North Tides WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79905B65250EAEB800C85FE4 /* Debug */,
+				79905B66250EAEB800C85FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A932ED24D81604009E31C1 /* Build configuration list for PBXProject "True North Tides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A932FF24D81605009E31C1 /* Debug */,
+				79A9330024D81605009E31C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A9330124D81605009E31C1 /* Build configuration list for PBXNativeTarget "True North Tides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A9330224D81605009E31C1 /* Debug */,
+				79A9330324D81605009E31C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A932EA24D81604009E31C1 /* Project object */;
+}

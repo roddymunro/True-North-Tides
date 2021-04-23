@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  True North Tides
+
+  Created by Roddy Munro on 13/09/2020.
+  
+*/
+
+"Error" = "Erreur";
+"Today at" = "Aujourd'hui à";
+"Tomorrow at" = "Demain à";
+"Alberta" = "Alberta";
+"British Columbia" = "Colombie-Britannique";
+"Manitoba" = "Manitoba";
+"New Brunswick" = "Nouveau-Brunswick";
+"Newfoundland and Labrador" = "Terre-Neuve-et-Labrador";
+"Northwest Territories" = "Territoires du Nord-Ouest";
+"Nova Scotia" = "Nouvelle-Écosse";
+"Nunavut" = "Nunavut";
+"Ontario" = "Ontario";
+"Prince Edward Island" = "Île-du-Prince-Édouard";
+"Quebec" = "Québec";
+"Saskatchewan" = "Saskatchewan";
+"Yukon" = "Yukon";
+"You are not connected to the internet. Please check your internet connection and try again." = "Vous n'êtes pas connecté à l'internet. S'il vous plaît, vérifiez votre connexion à l'internet et réessayez.";
+"Unable to complete your request. Please check your internet connection and try again." = "Impossible de compléter votre demande. S'il vous plaît, vérifiez votre connexion à l'internet et réessayez.";
+"Invalid response from the server. Please try again." = "Réponse non valide du serveur. Veuillez réessayer.";
+"The data received from the server was invalid. Please try again." = "Les données reçues du serveur n'étaient pas valides. Veuillez réessayer.";
+"Couldn't find any data for this station. Please contact the developer by going to 'Settings' and tapping 'Contact Us'." = "Impossible de trouver des données pour cette station. Veuillez contacter le développeur en allant dans les «Paramètres» et appuyez «Contactez-Nous».";
+"Low Tide" = "Marée basse";
+"High Tide" = "Marée haute";
+"Tidal Times" = "Temps des marées";
+"Close" = "Fermer";
+"Future Tides" = "Futures Marées";
+"Loading" = "Chargement";
+"Settings" = "Paramètres";
+"Province" = "Province";
+"Station" = "Station";
+"Why is my province not listed?" = "Pourquoi ma province n'est-elle pas répertoriée?";
+"Some provinces may not be shown due to the lack of a Canadian Hydrographic Service (CHS) station. Stations are typically located in an ocean, the sea or a significant lake. For more information, please visit the CHS website." = "Certaines provinces ne sont pas affichées en raison de l'absence d'une station du Service hydrographique du Canada (SHC). Les stations sont généralement situées dans un océan, la mer ou un lac important. Pour plus d'information, veuillez visiter le site Web du SCH.";
+"Customize" = "Personnaliser";
+"Colour Scheme" = "Schéma de couleurs";
+"Tip the Developer" = "Donner un don au développeur";
+"Units of Measurement" = "Unités de mesure";
+"Leave a Review" = "Laisser un commentaire";
+"Meet the Maker" = "Rencontrez le créateur";
+"Website" = "Site Web";
+"Twitter" = "Twitter";
+"With Thanks To" = "Merci à";
+"Version" = "Version";
+"Canadian Hydrographic Service" = "Service hydrographique du Canada";
+"Thank you!" = "Je vous remercie!";
+"Choose App Icon" = "Choisissez l'icône de l'application";
+"Choose Theme" = "Choisissez le thème";
+"Choose Station" = "Choisissez votre Station";
+"Select Station" = "Choisissez votre Station";
+"Saved" = "Enregistré";
+"https://tides.gc.ca/eng" = "https://tides.gc.ca/fra";
+"day" = "jour";
+"hour" = "heure";
+"minute" = "minute";
+"CHS Website" = "SHC Site Web";
+"Height" = "Hauteur";
+"Meters (m)" = "Mètres (m)";
+"Centimeters (cm)" = "Centimètres (cm)";
+"Feet (ft)" = "Pieds (pi)";
+"Inches (in)" = "Pouces (po)";
+"meters" = "mètres";
+"centimeters" = "centimètres";
+"feet" = "pieds";
+"inches" = "pouces";
+"m" = "m";
+"cm" = "cm";
+"ft" = "pi";
+"in" = "po";
+"Search Stations" = "Rechercher les stations";
